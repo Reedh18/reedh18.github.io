@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Case Notes Helper</title>
+		<link href="main.css" rel="stylesheet" type="text/css">
+		<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+		<script src="scripts.js"></script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="headerdiv">
+				<h1 id="headertext">Case Notes Helper</h1>
+			</div>
+			<div class="inputfieldsdiv">
+				<label for="cname">Name</label>
+				<input class="inputbox" type="text" id="name" name="name">
+				<br></br>
+				<label for="cnum">Phone</label>
+				<input class="inputbox" type="text" id="num" name="num">
+				<br></br>
+				<label for="cemail">Email</label>
+				<input class="inputbox" type="text" id="email" name="email">
+				<br></br>
+				<label for="level2">Level 2</label>
+				<select class="label" name="level2" id="level2">
+					<option value="no">No</option>
+					<option value="yes">Yes</option>
+				</select>
+				<br></br>
+				<label for="product">Product</label>
+				<select class="label" name="product" id="product">
+					<option value="wo">WO</option>
+					<option value="wx">WX</option>
+				</select>
+				<br></br>
+				<label for="priority">Priority</label>
+				<select class="label" name="priority" id="priority">
+					<option value="medium">Medium</option>
+					<option value="high">High</option>
+					<option value="pe">Payroll Emergency</option>	
+				</select>
+			</div>
+			<div class="casenotediv">
+				<textarea id="cnotes" name="cnotes" rows="25" cols="100" placeholder="Write your case notes here..."></textarea>
+			</div>
+			<div class="buttondiv">
+				<button class="mainbuttons" id="newNotesButton">NEW NOTES</button>
+			</div>
+			<div class="footerdiv">
+				<p class="footer-text-left">&copy; 2023 Reed Hoile</p>
+				<div class="footer-content-right">
+					<a target="_blank" rel="noopener noreferrer" href="help.html">
+						<img src="images/question.png" alt="Help" id="helpIcon" title="Help">
+					</a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
